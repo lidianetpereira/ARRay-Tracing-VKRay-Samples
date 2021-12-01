@@ -1,0 +1,2255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="artoolkitX"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\ARX\;CMake Files\ARX\AR\;CMake Files\ARX\AR\include\;CMake Files\ARX\AR\include\ARX\;CMake Files\ARX\AR\include\ARX\AR\;CMake Files\ARX\ARVideo\;CMake Files\ARX\ARVideo\Dummy\;CMake Files\ARX\ARVideo\Image\;CMake Files\ARX\ARVideo\Video4Linux2\;CMake Files\ARX\ARVideo\libdc1394\;CMake Files\ARX\ARVideo\GStreamer\;CMake Files\ARX\ARUtil\;CMake Files\ARX\ARG\;CMake Files\ARX\AR2\;CMake Files\ARX\KPM\;CMake Files\ARX\OCVT\;CMake Files\depends\;CMake Files\depends\common\;CMake Files\depends\common\src\;CMake Files\depends\common\src\Eden\;CMake Files\Utilities\;CMake Files\Utilities\check_id\;CMake Files\Utilities\genMarkerSet\;CMake Files\Utilities\mk_patt\;CMake Files\Utilities\checkResolution\;CMake Files\Utilities\genTexData\;CMake Files\Utilities\dispTexData\;CMake Files\Utilities\image_database_2d\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ARX">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/libARX.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-DARX_EXPORTS=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/OCVT/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/Makefile&quot;  VERBOSE=1 ARX"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ARX/fast">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/libARX.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-DARX_EXPORTS=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/OCVT/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/Makefile&quot;  VERBOSE=1 ARX/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AR">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/libAR.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-DARX_EXPORTS=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/../ARUtil/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/Makefile&quot;  VERBOSE=1 AR"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AR/fast">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/libAR.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-DARX_EXPORTS=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/../ARUtil/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/Makefile&quot;  VERBOSE=1 AR/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ARVideo">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARVideo/libARVideo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARVideo"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-DARX_EXPORTS=1"/>
+					<Add option="-DARVIDEO_INPUT_DUMMY"/>
+					<Add option="-DARVIDEO_INPUT_IMAGE"/>
+					<Add option="-DARVIDEO_INPUT_V4L2"/>
+					<Add option="-DARVIDEO_INPUT_DEFAULT_V4L2"/>
+					<Add option="-DARVIDEO_INPUT_LIBDC1394"/>
+					<Add option="-DARVIDEO_INPUT_GSTREAMER"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/include"/>
+					<Add directory="/usr/include/gstreamer-1.0"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/../AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/../ARUtil/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARVideo/Makefile&quot;  VERBOSE=1 ARVideo"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARVideo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARVideo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARVideo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ARVideo/fast">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARVideo/libARVideo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARVideo"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-DARX_EXPORTS=1"/>
+					<Add option="-DARVIDEO_INPUT_DUMMY"/>
+					<Add option="-DARVIDEO_INPUT_IMAGE"/>
+					<Add option="-DARVIDEO_INPUT_V4L2"/>
+					<Add option="-DARVIDEO_INPUT_DEFAULT_V4L2"/>
+					<Add option="-DARVIDEO_INPUT_LIBDC1394"/>
+					<Add option="-DARVIDEO_INPUT_GSTREAMER"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/include"/>
+					<Add directory="/usr/include/gstreamer-1.0"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/../AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/../ARUtil/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARVideo/Makefile&quot;  VERBOSE=1 ARVideo/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARVideo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARVideo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARVideo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ARUtil">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARUtil/libARUtil.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARUtil"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-DARX_EXPORTS=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/linux/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARUtil/Makefile&quot;  VERBOSE=1 ARUtil"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARUtil/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARUtil/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARUtil/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ARUtil/fast">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARUtil/libARUtil.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARUtil"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-DARX_EXPORTS=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/linux/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARUtil/Makefile&quot;  VERBOSE=1 ARUtil/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARUtil/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARUtil/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARUtil/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ARG">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARG/libARG.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARG"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-DARX_EXPORTS=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/../AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/../ARUtil/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARG/Makefile&quot;  VERBOSE=1 ARG"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARG/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARG/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARG/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ARG/fast">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARG/libARG.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARG"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-DARX_EXPORTS=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/../AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/../ARUtil/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARG/Makefile&quot;  VERBOSE=1 ARG/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARG/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARG/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/ARG/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AR2">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR2/libAR2.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR2"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-DARX_EXPORTS=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/../AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/../ARUtil/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR2/Makefile&quot;  VERBOSE=1 AR2"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AR2/fast">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR2/libAR2.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR2"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-DARX_EXPORTS=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/../AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/../ARUtil/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR2/Makefile&quot;  VERBOSE=1 AR2/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KPM">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/KPM/libKPM.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/KPM"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-DARX_EXPORTS=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/../ARUtil/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/../AR/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/KPM/Makefile&quot;  VERBOSE=1 KPM"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/KPM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/KPM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/KPM/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KPM/fast">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/KPM/libKPM.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/KPM"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-DARX_EXPORTS=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/../ARUtil/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/../AR/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/KPM/Makefile&quot;  VERBOSE=1 KPM/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/KPM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/KPM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/KPM/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OCVT">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/OCVT/libOCVT.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/OCVT"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-DARX_EXPORTS=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/OCVT/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/OCVT/../ARUtil/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/OCVT/../AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/OCVT/include/ARX/OCVT"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/OCVT/Makefile&quot;  VERBOSE=1 OCVT"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/OCVT/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/OCVT/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/OCVT/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OCVT/fast">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/OCVT/libOCVT.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/OCVT"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-DARX_EXPORTS=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/OCVT/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/OCVT/../ARUtil/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/OCVT/../AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/OCVT/include/ARX/OCVT"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/OCVT/Makefile&quot;  VERBOSE=1 OCVT/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/OCVT/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/OCVT/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/OCVT/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Eden">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/depends/common/src/Eden/libEden.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/depends/common/src/Eden"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/.."/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/../../../../ARX/ARG/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/depends/common/src/Eden/../../../../ARX/AR/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/depends/common/src/Eden/Makefile&quot;  VERBOSE=1 Eden"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/depends/common/src/Eden/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/depends/common/src/Eden/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/depends/common/src/Eden/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Eden/fast">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/depends/common/src/Eden/libEden.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/depends/common/src/Eden"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/.."/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/../../../../ARX/ARG/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/depends/common/src/Eden/../../../../ARX/AR/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/depends/common/src/Eden/Makefile&quot;  VERBOSE=1 Eden/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/depends/common/src/Eden/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/depends/common/src/Eden/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/depends/common/src/Eden/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="artoolkitx_check_id">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/check_id/artoolkitx_check_id" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/check_id"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/check_id/Makefile&quot;  VERBOSE=1 artoolkitx_check_id"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/check_id/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/check_id/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/check_id/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="artoolkitx_check_id/fast">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/check_id/artoolkitx_check_id" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/check_id"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/check_id/Makefile&quot;  VERBOSE=1 artoolkitx_check_id/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/check_id/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/check_id/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/check_id/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="artoolkitx_genMarkerSet">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/genMarkerSet/artoolkitx_genMarkerSet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/genMarkerSet"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/genMarkerSet/Makefile&quot;  VERBOSE=1 artoolkitx_genMarkerSet"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/genMarkerSet/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/genMarkerSet/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/genMarkerSet/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="artoolkitx_genMarkerSet/fast">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/genMarkerSet/artoolkitx_genMarkerSet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/genMarkerSet"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/genMarkerSet/Makefile&quot;  VERBOSE=1 artoolkitx_genMarkerSet/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/genMarkerSet/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/genMarkerSet/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/genMarkerSet/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="artoolkitx_mk_patt">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/mk_patt/artoolkitx_mk_patt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/mk_patt"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/mk_patt/Makefile&quot;  VERBOSE=1 artoolkitx_mk_patt"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/mk_patt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/mk_patt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/mk_patt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="artoolkitx_mk_patt/fast">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/mk_patt/artoolkitx_mk_patt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/mk_patt"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/mk_patt/Makefile&quot;  VERBOSE=1 artoolkitx_mk_patt/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/mk_patt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/mk_patt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/mk_patt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="artoolkitx_checkResolution">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/checkResolution/artoolkitx_checkResolution" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/checkResolution"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/checkResolution/Makefile&quot;  VERBOSE=1 artoolkitx_checkResolution"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/checkResolution/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/checkResolution/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/checkResolution/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="artoolkitx_checkResolution/fast">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/checkResolution/artoolkitx_checkResolution" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/checkResolution"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/checkResolution/Makefile&quot;  VERBOSE=1 artoolkitx_checkResolution/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/checkResolution/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/checkResolution/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/checkResolution/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="artoolkitx_genTexData">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/genTexData/artoolkitx_genTexData" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/genTexData"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/genTexData/Makefile&quot;  VERBOSE=1 artoolkitx_genTexData"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/genTexData/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/genTexData/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/genTexData/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="artoolkitx_genTexData/fast">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/genTexData/artoolkitx_genTexData" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/genTexData"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/genTexData/Makefile&quot;  VERBOSE=1 artoolkitx_genTexData/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/genTexData/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/genTexData/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/genTexData/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="artoolkitx_dispTexData">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/dispTexData/artoolkitx_dispTexData" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/dispTexData"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/dispTexData/Makefile&quot;  VERBOSE=1 artoolkitx_dispTexData"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/dispTexData/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/dispTexData/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/dispTexData/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="artoolkitx_dispTexData/fast">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/dispTexData/artoolkitx_dispTexData" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/dispTexData"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/dispTexData/Makefile&quot;  VERBOSE=1 artoolkitx_dispTexData/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/dispTexData/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/dispTexData/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/dispTexData/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="artoolkitx_image_database2d">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/image_database_2d/artoolkitx_image_database2d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/image_database_2d"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/OCVT/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/image_database_2d/Makefile&quot;  VERBOSE=1 artoolkitx_image_database2d"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/image_database_2d/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/image_database_2d/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/image_database_2d/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="artoolkitx_image_database2d/fast">
+				<Option output="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/image_database_2d/artoolkitx_image_database2d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/image_database_2d"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/OCVT/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/ARX/AR/include"/>
+					<Add directory="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/image_database_2d/Makefile&quot;  VERBOSE=1 artoolkitx_image_database2d/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/image_database_2d/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/image_database_2d/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug/Utilities/image_database_2d/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/ar3DCreateHandle.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/ar3DUtil.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arCreateHandle.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arDetectMarker.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arDetectMarker2.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arFilterTransMat.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arGetLine.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arGetMarkerInfo.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arGetTransMat.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arGetTransMatStereo.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arImageProc.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arLabeling.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arLabelingSub/arLabelingPrivate.h">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arLabelingSub/arLabelingSub.h">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arLabelingSub/arLabelingSubDBIC.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arLabelingSub/arLabelingSubDBRC.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arLabelingSub/arLabelingSubDBZ.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arLabelingSub/arLabelingSubDWIC.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arLabelingSub/arLabelingSubDWRC.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arLabelingSub/arLabelingSubDWZ.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arLabelingSub/arLabelingSubEBIC.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arLabelingSub/arLabelingSubEBRC.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arLabelingSub/arLabelingSubEBZ.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arLabelingSub/arLabelingSubEWIC.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arLabelingSub/arLabelingSubEWRC.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arLabelingSub/arLabelingSubEWZ.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arMultiEditConfig.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arMultiFreeConfig.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arMultiGetTransMat.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arMultiGetTransMatStereo.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arMultiReadConfigFile.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arPattAttach.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arPattCreateHandle.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arPattGetID.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arPattLoad.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arPattSave.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arRefineCorners.cpp">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arRefineCorners.h">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/arUtil.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/icpCalibStereo.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/icpCore.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/icpHandle.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/icpPoint.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/icpPointRobust.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/icpStereoHandle.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/icpStereoPoint.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/icpStereoPointRobust.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/icpUtil.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include/ARX/AR/ar.h">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include/ARX/AR/arConfig.h">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include/ARX/AR/arFilterTransMat.h">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include/ARX/AR/arImageProc.h">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include/ARX/AR/arMulti.h">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include/ARX/AR/config.h.in">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include/ARX/AR/icp.h">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include/ARX/AR/icpCalib.h">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include/ARX/AR/icpCore.h">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include/ARX/AR/matrix.h">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include/ARX/AR/param.h">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include/ARX/AR/paramGL.h">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/mAlloc.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/mAllocDup.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/mAllocInv.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/mAllocMul.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/mAllocTrans.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/mAllocUnit.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/mDet.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/mDisp.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/mDup.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/mFree.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/mInv.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/mMul.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/mPCA.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/mSelfInv.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/mTrans.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/mUnit.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/paramChangeSize.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/paramClear.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/paramDecomp.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/paramDisp.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/paramDistortion.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/paramFile.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/paramGL.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/paramGetPerspective.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/paramLT.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/vAlloc.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/vDisp.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/vFree.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/vHouse.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/vInnerP.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/vTridiag.c">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/coord.c">
+			<Option target="AR2"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/featureMap.c">
+			<Option target="AR2"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/featureSet.c">
+			<Option target="AR2"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/handle.c">
+			<Option target="AR2"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/imageSet.c">
+			<Option target="AR2"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/include/ARX/AR2/config.h">
+			<Option target="AR2"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/include/ARX/AR2/coord.h">
+			<Option target="AR2"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/include/ARX/AR2/featureSet.h">
+			<Option target="AR2"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/include/ARX/AR2/imageFormat.h">
+			<Option target="AR2"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/include/ARX/AR2/imageSet.h">
+			<Option target="AR2"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/include/ARX/AR2/marker.h">
+			<Option target="AR2"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/include/ARX/AR2/searchPoint.h">
+			<Option target="AR2"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/include/ARX/AR2/template.h">
+			<Option target="AR2"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/include/ARX/AR2/tracking.h">
+			<Option target="AR2"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/include/ARX/AR2/util.h">
+			<Option target="AR2"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/jpeg.c">
+			<Option target="AR2"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/marker.c">
+			<Option target="AR2"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/matching.c">
+			<Option target="AR2"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/matching2.c">
+			<Option target="AR2"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/searchPoint.c">
+			<Option target="AR2"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/selectTemplate.c">
+			<Option target="AR2"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/surface.c">
+			<Option target="AR2"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/template.c">
+			<Option target="AR2"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/tracking.c">
+			<Option target="AR2"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/tracking2d.c">
+			<Option target="AR2"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/util.c">
+			<Option target="AR2"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARController.cpp">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/arg.c">
+			<Option target="ARG"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/arg_gl.c">
+			<Option target="ARG"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/arg_gl.h">
+			<Option target="ARG"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/arg_gl3.c">
+			<Option target="ARG"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/arg_gl3.h">
+			<Option target="ARG"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/arg_gles2.c">
+			<Option target="ARG"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/arg_gles2.h">
+			<Option target="ARG"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/arg_private.h">
+			<Option target="ARG"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/glStateCache2.c">
+			<Option target="ARG"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/include/ARX/ARG/arg.h">
+			<Option target="ARG"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/include/ARX/ARG/glStateCache2.h">
+			<Option target="ARG"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/include/ARX/ARG/mtx.h">
+			<Option target="ARG"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/include/ARX/ARG/shader_gl.h">
+			<Option target="ARG"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/mtx.c">
+			<Option target="ARG"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/shader_gl.c">
+			<Option target="ARG"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARPattern.cpp">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARTrackable.cpp">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARTrackable2d.cpp">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARTrackableMultiSquare.cpp">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARTrackableMultiSquareAuto.cpp">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARTrackableNFT.cpp">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARTrackableSquare.cpp">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARTracker.cpp">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARTracker2d.cpp">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARTrackerNFT.cpp">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARTrackerSquare.cpp">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/android_system_property_get.c">
+			<Option target="ARUtil"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/crypt.c">
+			<Option target="ARUtil"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/crypt.h">
+			<Option target="ARUtil"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/file_utils.c">
+			<Option target="ARUtil"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/image_utils.cpp">
+			<Option target="ARUtil"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/include/ARX/ARUtil/android.h">
+			<Option target="ARUtil"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/include/ARX/ARUtil/file_utils.h">
+			<Option target="ARUtil"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/include/ARX/ARUtil/image_utils.h">
+			<Option target="ARUtil"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/include/ARX/ARUtil/log.h">
+			<Option target="ARUtil"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/include/ARX/ARUtil/profile.h">
+			<Option target="ARUtil"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/include/ARX/ARUtil/system.h">
+			<Option target="ARUtil"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/include/ARX/ARUtil/thread_sub.h">
+			<Option target="ARUtil"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/include/ARX/ARUtil/time.h">
+			<Option target="ARUtil"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/include/ARX/ARUtil/types.h">
+			<Option target="ARUtil"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/ioapi.c">
+			<Option target="ARUtil"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/ioapi.h">
+			<Option target="ARUtil"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/log.c">
+			<Option target="ARUtil"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/profile.c">
+			<Option target="ARUtil"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/system.c">
+			<Option target="ARUtil"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/thread_sub.c">
+			<Option target="ARUtil"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/thread_sub_winrt.cpp">
+			<Option target="ARUtil"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/thread_sub_winrt.h">
+			<Option target="ARUtil"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/time.c">
+			<Option target="ARUtil"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/unzip.c">
+			<Option target="ARUtil"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/unzip.h">
+			<Option target="ARUtil"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/zip.c">
+			<Option target="ARUtil"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/zip.h">
+			<Option target="ARUtil"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/Dummy/videoDummy.c">
+			<Option target="ARVideo"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/Dummy/videoDummy.h">
+			<Option target="ARVideo"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/GStreamer/videoGStreamer.c">
+			<Option target="ARVideo"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/GStreamer/videoGStreamer.h">
+			<Option target="ARVideo"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/Image/videoImage.c">
+			<Option target="ARVideo"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/Image/videoImage.h">
+			<Option target="ARVideo"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/Video4Linux2/videoV4L2.c">
+			<Option target="ARVideo"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/Video4Linux2/videoV4L2.h">
+			<Option target="ARVideo"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/cparamSearch.c">
+			<Option target="ARVideo"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/cparamSearch.h">
+			<Option target="ARVideo"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/include/ARX/ARVideo/video.h">
+			<Option target="ARVideo"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/include/ARX/ARVideo/videoConfig.h">
+			<Option target="ARVideo"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/include/ARX/ARVideo/videoLuma.h">
+			<Option target="ARVideo"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/include/ARX/ARVideo/videoRGBA.h">
+			<Option target="ARVideo"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/libdc1394/video1394.c">
+			<Option target="ARVideo"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/libdc1394/video1394.h">
+			<Option target="ARVideo"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/libdc1394/video1394Format.c">
+			<Option target="ARVideo"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/libdc1394/video1394Private.h">
+			<Option target="ARVideo"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/libdc1394/video1394Setting.c">
+			<Option target="ARVideo"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/nxjson.c">
+			<Option target="ARVideo"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/nxjson.h">
+			<Option target="ARVideo"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/video.c">
+			<Option target="ARVideo"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/video2.c">
+			<Option target="ARVideo"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/videoAspectRatio.c">
+			<Option target="ARVideo"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/videoLuma.c">
+			<Option target="ARVideo"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/videoRGBA.c">
+			<Option target="ARVideo"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/videoSaveImage.c">
+			<Option target="ARVideo"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideoSource.cpp">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideoView.cpp">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARX_c.cpp">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/detectors/DoG_scale_invariant_detector.cpp">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/detectors/DoG_scale_invariant_detector.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/detectors/gaussian_scale_space_pyramid.cpp">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/detectors/gaussian_scale_space_pyramid.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/detectors/gradients.cpp">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/detectors/gradients.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/detectors/harris-inline.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/detectors/harris.cpp">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/detectors/harris.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/detectors/interpolate.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/detectors/orientation_assignment.cpp">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/detectors/orientation_assignment.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/detectors/pyramid-inline.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/detectors/pyramid.cpp">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/detectors/pyramid.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/facade/visual_database_facade.cpp">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/facade/visual_database_facade.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/framework/date_time.cpp">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/framework/date_time.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/framework/error.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/framework/exception.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/framework/image.cpp">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/framework/image.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/framework/image_utils.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/framework/logger.cpp">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/framework/logger.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/framework/timers.cpp">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/framework/timers.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/homography_estimation/homography_solver.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/homography_estimation/robust_homography.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/matchers/binary_hierarchical_clustering.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/matchers/feature_matcher-inline.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/matchers/feature_matcher.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/matchers/feature_point.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/matchers/feature_store.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/matchers/freak.cpp">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/matchers/freak.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/matchers/freak84-inline.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/matchers/hough_similarity_voting.cpp">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/matchers/hough_similarity_voting.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/matchers/keyframe.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/matchers/kmedoids.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/matchers/matcher_types.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/matchers/visual_database-inline.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/matchers/visual_database.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/matchers/visual_database_types.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/math/cholesky.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/math/cholesky_linear_solvers.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/math/geometry.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/math/hamming.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/math/homography.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/math/indexing.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/math/linear_algebra.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/math/linear_solvers.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/math/math_utils.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/math/matrix.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/math/polynomial.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/math/quaternion.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/math/rand.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/math/robustifiers.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/utils/feature_drawing.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/utils/partial_sort.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/FreakMatcher/utils/point.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/include/ARX/KPM/kpm.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/include/ARX/KPM/kpmType.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/kpmFopen.c">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/kpmFopen.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/kpmHandle.cpp">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/kpmMatching.cpp">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/kpmPrivate.h">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/kpmRefDataSet.cpp">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/kpmResult.cpp">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/kpmUtil.cpp">
+			<Option target="KPM"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/OCVT/HarrisDetector.cpp">
+			<Option target="OCVT"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/OCVT/HarrisDetector.h">
+			<Option target="OCVT"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/OCVT/HomographyInfo.cpp">
+			<Option target="OCVT"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/OCVT/HomographyInfo.h">
+			<Option target="OCVT"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/OCVT/OCVConfig.cpp">
+			<Option target="OCVT"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/OCVT/OCVConfig.h">
+			<Option target="OCVT"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/OCVT/OCVFeatureDetector.cpp">
+			<Option target="OCVT"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/OCVT/OCVFeatureDetector.h">
+			<Option target="OCVT"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/OCVT/PlanarTracker.cpp">
+			<Option target="OCVT"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/OCVT/TrackedPoint.cpp">
+			<Option target="OCVT"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/OCVT/TrackedPoint.h">
+			<Option target="OCVT"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/OCVT/TrackingPointSelector.cpp">
+			<Option target="OCVT"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/OCVT/TrackingPointSelector.h">
+			<Option target="OCVT"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/OCVT/include/ARX/OCVT/PlanarTracker.h">
+			<Option target="OCVT"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include/ARX/ARController.h">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include/ARX/ARPattern.h">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include/ARX/ARTrackable.h">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include/ARX/ARTrackable2d.h">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include/ARX/ARTrackableMultiSquare.h">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include/ARX/ARTrackableMultiSquareAuto.h">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include/ARX/ARTrackableNFT.h">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include/ARX/ARTrackableSquare.h">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include/ARX/ARTracker.h">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include/ARX/ARTracker2d.h">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include/ARX/ARTrackerNFT.h">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include/ARX/ARTrackerSquare.h">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include/ARX/ARTrackerVideo.h">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include/ARX/ARVideoSource.h">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include/ARX/ARVideoView.h">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include/ARX/ARX_c.h">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include/ARX/Error.h">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/include/ARX/Platform.h">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/mapper.cpp">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/mapper.hpp">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/trackingSub.c">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/trackingSub.h">
+			<Option target="ARX"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/Utilities/checkResolution/checkResolution.c">
+			<Option target="artoolkitx_checkResolution"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/Utilities/check_id/check_id.cpp">
+			<Option target="artoolkitx_check_id"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/Utilities/dispTexData/dispTexData.cpp">
+			<Option target="artoolkitx_dispTexData"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/Utilities/genMarkerSet/genMarkerSet.cpp">
+			<Option target="artoolkitx_genMarkerSet"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/Utilities/genTexData/genTexData.c">
+			<Option target="artoolkitx_genTexData"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/Utilities/image_database_2d/image_database2d.cpp">
+			<Option target="artoolkitx_image_database2d"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/Utilities/mk_patt/mk_patt.cpp">
+			<Option target="artoolkitx_mk_patt"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/Eden.h">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/EdenError.h">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/EdenGLFont.c">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/EdenGLFont.h">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/EdenMath.h">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/EdenMessage.c">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/EdenMessage.h">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/EdenSurfaces.c">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/EdenSurfaces.h">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/EdenTime.c">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/EdenTime.h">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/EdenUIInput.c">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/EdenUIInput.h">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/EdenUtil.c">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/EdenUtil.h">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/glStateCache.c">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/glStateCache.h">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/gluttext.h">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/gluttext/glut_8x13.c">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/gluttext/glut_9x15.c">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/gluttext/glut_bitmap.c">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/gluttext/glut_bwidth.c">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/gluttext/glut_hel10.c">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/gluttext/glut_hel12.c">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/gluttext/glut_hel18.c">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/gluttext/glut_mroman.c">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/gluttext/glut_roman.c">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/gluttext/glut_stroke.c">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/gluttext/glut_swidth.c">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/gluttext/glut_tr10.c">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/gluttext/glut_tr24.c">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/gluttext/glutbitmap.h">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/gluttext/glutstroke.h">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/readtex.c">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/readtex.h">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake/FindOpenCV.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake/FindOpenGL3.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake/FindOpenGLES2.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/cmake/FindSDL2.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ARX\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ARX\AR\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR/include/ARX/AR/config.h.in">
+			<Option virtualFolder="CMake Files\ARX\AR\include\ARX\AR\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ARX\ARVideo\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/Dummy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ARX\ARVideo\Dummy\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/Image/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ARX\ARVideo\Image\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/Video4Linux2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ARX\ARVideo\Video4Linux2\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/libdc1394/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ARX\ARVideo\libdc1394\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARVideo/GStreamer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ARX\ARVideo\GStreamer\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARUtil/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ARX\ARUtil\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/ARG/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ARX\ARG\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/AR2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ARX\AR2\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/KPM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ARX\KPM\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/ARX/OCVT/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ARX\OCVT\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\depends\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\depends\common\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\depends\common\src\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/depends/common/src/Eden/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\depends\common\src\Eden\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/Utilities/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Utilities\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/Utilities/check_id/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Utilities\check_id\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/Utilities/genMarkerSet/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Utilities\genMarkerSet\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/Utilities/mk_patt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Utilities\mk_patt\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/Utilities/checkResolution/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Utilities\checkResolution\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/Utilities/genTexData/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Utilities\genTexData\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/Utilities/dispTexData/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Utilities\dispTexData\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/artoolkitx-master/Source/Utilities/image_database_2d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Utilities\image_database_2d\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

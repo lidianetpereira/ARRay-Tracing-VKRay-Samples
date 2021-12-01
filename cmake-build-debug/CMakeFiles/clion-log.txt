@@ -1,0 +1,140 @@
+/home/lidiane/Downloads/CLion-2019.3.5/clion-2019.3.5/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master
+CMake Warning (dev) at CMakeLists.txt:2 (project):
+  Policy CMP0048 is not set: project() command manages VERSION variables.
+  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The following variable(s) would be set to empty:
+
+    CMAKE_PROJECT_VERSION
+    CMAKE_PROJECT_VERSION_MAJOR
+    CMAKE_PROJECT_VERSION_MINOR
+    CMAKE_PROJECT_VERSION_PATCH
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Using X11 for window creation
+-- BASE_DIRECTORY = /home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/..
+-- CMAKE_CURRENT_SOURCE_DIR = /home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master
+-- VulkanSDK search paths: 
+-- $VULKAN_SDK: 
+-- Vulkan Include : /usr/local/include
+-- Vulkan Library : /usr/local/lib/libvulkan.so
+-- --> using package VulkanSDK (version )
+-- --> using Vulkan Headers from: /usr/local/include/Include
+-- --> using package ImGUI
+-- --> using package ZLIB
+-- --> using package OpenGL
+-- -------------------------------
+-- Processing shared_sources files
+-- --> using package ZLIB
+-- VulkanSDK search paths: 
+-- $VULKAN_SDK: 
+-- Vulkan Include : /usr/local/include
+-- Vulkan Library : /usr/local/lib/libvulkan.so
+-- --> using package VulkanSDK (version )
+-- --> using Vulkan Headers from: /usr/local/include/Include
+-- --> using package OpenGL
+-- --> using package ZLIB
+-- --> using package ImGUI
+-- shared_sources library name: shared_sources_gl_vk
+--  Packages needed for shared_sources lib compat:
+-- --> using package OpenGL
+-- VulkanSDK search paths: 
+-- $VULKAN_SDK: 
+-- Vulkan Include : /usr/local/include
+-- Vulkan Library : /usr/local/lib/libvulkan.so
+-- --> using package VulkanSDK (version )
+-- --> using Vulkan Headers from: /usr/local/include/Include
+-- -------------------------------
+-- Processing Project vk_ray_tracing__advance_NV:
+CMake Warning at ray_tracing__advance/CMakeLists.txt:112 (find_package):
+  By not providing "FindOpenGLES2.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "OpenGLES2", but CMake did not find one.
+
+  Could not find a package configuration file provided by "OpenGLES2" with
+  any of the following names:
+
+    OpenGLES2Config.cmake
+    opengles2-config.cmake
+
+  Add the installation prefix of "OpenGLES2" to CMAKE_PREFIX_PATH or set
+  "OpenGLES2_DIR" to a directory containing one of the above files.  If
+  "OpenGLES2" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+CMake Warning at ray_tracing__advance/CMakeLists.txt:113 (find_package):
+  By not providing "FindOpenGL3.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "OpenGL3", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "OpenGL3" with any
+  of the following names:
+
+    OpenGL3Config.cmake
+    opengl3-config.cmake
+
+  Add the installation prefix of "OpenGL3" to CMAKE_PREFIX_PATH or set
+  "OpenGL3_DIR" to a directory containing one of the above files.  If
+  "OpenGL3" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+-- -------------------------------
+-- Processing Project vk_ray_tracing__before_NV:
+-- -------------------------------
+-- Processing Project vk_ray_tracing__simple_NV:
+CMake Warning at ray_tracing__simple/CMakeLists.txt:109 (find_package):
+  By not providing "FindOpenGLES2.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "OpenGLES2", but CMake did not find one.
+
+  Could not find a package configuration file provided by "OpenGLES2" with
+  any of the following names:
+
+    OpenGLES2Config.cmake
+    opengles2-config.cmake
+
+  Add the installation prefix of "OpenGLES2" to CMAKE_PREFIX_PATH or set
+  "OpenGLES2_DIR" to a directory containing one of the above files.  If
+  "OpenGLES2" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+CMake Warning at ray_tracing__simple/CMakeLists.txt:110 (find_package):
+  By not providing "FindOpenGL3.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "OpenGL3", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "OpenGL3" with any
+  of the following names:
+
+    OpenGL3Config.cmake
+    opengl3-config.cmake
+
+  Add the installation prefix of "OpenGL3" to CMAKE_PREFIX_PATH or set
+  "OpenGL3_DIR" to a directory containing one of the above files.  If
+  "OpenGL3" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+-- -------------------------------
+-- Processing Project vk_ray_tracing_animation_NV:
+-- -------------------------------
+-- Processing Project vk_ray_tracing_anyhit_NV:
+-- -------------------------------
+-- Processing Project vk_ray_tracing_callable_NV:
+-- -------------------------------
+-- Processing Project vk_ray_tracing_jitter_cam_NV:
+-- -------------------------------
+-- Processing Project vk_ray_tracing_manyhits_NV:
+-- -------------------------------
+-- Processing Project vk_ray_tracing_reflections_NV:
+-- -------------------------------
+-- Processing Project vk_ray_tracing_instances_NV:
+-- -------------------------------
+-- Processing Project vk_ray_tracing_intersection_NV:
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/cmake-build-debug

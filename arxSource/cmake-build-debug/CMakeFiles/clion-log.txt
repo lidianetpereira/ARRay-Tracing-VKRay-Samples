@@ -1,0 +1,194 @@
+/home/lidiane/Downloads/CLion-2019.3.5/clion-2019.3.5/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/lidiane/CLionProjects/artoolkitx-master/Source
+-- The CXX compiler identification is GNU 7.5.0
+-- The C compiler identification is GNU 7.5.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Using single-configuration CMake generator.
+-- Found OpenCV: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so;/usr/lib/x86_64-linux-gnu/libopencv_features2d.so;/usr/lib/x86_64-linux-gnu/libopencv_flann.so;/usr/lib/x86_64-linux-gnu/libopencv_highgui.so;/usr/lib/x86_64-linux-gnu/libopencv_videoio.so;/usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so;/usr/lib/x86_64-linux-gnu/libopencv_video.so;/usr/lib/x86_64-linux-gnu/libopencv_imgproc.so;/usr/lib/x86_64-linux-gnu/libopencv_core.so  
+-- Defined: ARX_TARGET_PLATFORM_LINUX=1
+-- Defined: DEBUG=1
+-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+CMake Warning (dev) at /home/lidiane/Downloads/CLion-2019.3.5/clion-2019.3.5/bin/cmake/linux/share/cmake-3.15/Modules/FindOpenGL.cmake:275 (message):
+  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  FindOpenGL found both a legacy GL library:
+
+    OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+
+  and GLVND libraries for OpenGL and GLX:
+
+    OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+    OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+
+  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+  compatibility with CMake 3.10 and below the legacy GL library will be used.
+Call Stack (most recent call first):
+  ARX/CMakeLists.txt:54 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Found OpenGLES2: /usr/include
+/usr/usr/local/opt/local
+-- Found OpenGL3: GL  
+-- Opting for desktop OpenGL. Set ARX_GL_PREFER_EMBEDDED to change.
+CMake Warning at ARX/CMakeLists.txt:80 (find_package):
+  By not providing "FindGTSAM.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "GTSAM", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "GTSAM" with any of
+  the following names:
+
+    GTSAMConfig.cmake
+    gtsam-config.cmake
+
+  Add the installation prefix of "GTSAM" to CMAKE_PREFIX_PATH or set
+  "GTSAM_DIR" to a directory containing one of the above files.  If "GTSAM"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.58.0")  
+/usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for one of the modules 'libudev'
+-- Checking for one of the modules 'libdc1394-2'
+-- Checking for one of the modules 'gstreamer-1.0'
+-- Checking for one of the modules 'glib-2.0'
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+CMake Warning (dev) at /home/lidiane/Downloads/CLion-2019.3.5/clion-2019.3.5/bin/cmake/linux/share/cmake-3.15/Modules/FindOpenGL.cmake:275 (message):
+  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  FindOpenGL found both a legacy GL library:
+
+    OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+
+  and GLVND libraries for OpenGL and GLX:
+
+    OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+    OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+
+  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+  compatibility with CMake 3.10 and below the legacy GL library will be used.
+Call Stack (most recent call first):
+  depends/common/src/Eden/CMakeLists.txt:16 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found OpenGLES2: /usr/include
+/usr/usr/local/opt/local
+CMake Warning (dev) at /home/lidiane/Downloads/CLion-2019.3.5/clion-2019.3.5/bin/cmake/linux/share/cmake-3.15/Modules/FindOpenGL.cmake:275 (message):
+  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  FindOpenGL found both a legacy GL library:
+
+    OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+
+  and GLVND libraries for OpenGL and GLX:
+
+    OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+    OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+
+  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+  compatibility with CMake 3.10 and below the legacy GL library will be used.
+Call Stack (most recent call first):
+  Utilities/check_id/CMakeLists.txt:7 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+<FindSDL2.cmake>
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+</FindSDL2.cmake>
+-- Found SDL2: /usr/local/lib/libSDL2main.a;/usr/local/lib/libSDL2.so;-lpthread  
+CMake Warning (dev) at /home/lidiane/Downloads/CLion-2019.3.5/clion-2019.3.5/bin/cmake/linux/share/cmake-3.15/Modules/FindOpenGL.cmake:275 (message):
+  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  FindOpenGL found both a legacy GL library:
+
+    OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+
+  and GLVND libraries for OpenGL and GLX:
+
+    OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+    OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+
+  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+  compatibility with CMake 3.10 and below the legacy GL library will be used.
+Call Stack (most recent call first):
+  Utilities/genMarkerSet/CMakeLists.txt:7 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+<FindSDL2.cmake>
+</FindSDL2.cmake>
+CMake Warning (dev) at /home/lidiane/Downloads/CLion-2019.3.5/clion-2019.3.5/bin/cmake/linux/share/cmake-3.15/Modules/FindOpenGL.cmake:275 (message):
+  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  FindOpenGL found both a legacy GL library:
+
+    OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+
+  and GLVND libraries for OpenGL and GLX:
+
+    OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+    OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+
+  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+  compatibility with CMake 3.10 and below the legacy GL library will be used.
+Call Stack (most recent call first):
+  Utilities/mk_patt/CMakeLists.txt:7 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+<FindSDL2.cmake>
+</FindSDL2.cmake>
+CMAKE_SOURCE_DIR /home/lidiane/CLionProjects/artoolkitx-master/Source
+CMake Warning (dev) at /home/lidiane/Downloads/CLion-2019.3.5/clion-2019.3.5/bin/cmake/linux/share/cmake-3.15/Modules/FindOpenGL.cmake:275 (message):
+  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  FindOpenGL found both a legacy GL library:
+
+    OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+
+  and GLVND libraries for OpenGL and GLX:
+
+    OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+    OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+
+  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+  compatibility with CMake 3.10 and below the legacy GL library will be used.
+Call Stack (most recent call first):
+  Utilities/dispTexData/CMakeLists.txt:7 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+<FindSDL2.cmake>
+</FindSDL2.cmake>
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lidiane/CLionProjects/artoolkitx-master/Source/cmake-build-debug

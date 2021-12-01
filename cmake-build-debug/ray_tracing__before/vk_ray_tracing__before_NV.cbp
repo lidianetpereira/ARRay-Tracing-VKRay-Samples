@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="vk_ray_tracing__before_NV"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\downloaded_resources\;CMake Files\..\downloaded_resources\glfw-3.3.1\;CMake Files\..\downloaded_resources\glfw-3.3.1\src\;CMake Files\..\downloaded_resources\glfw-3.3.1\examples\;CMake Files\..\downloaded_resources\glfw-3.3.1\tests\;CMake Files\..\downloaded_resources\glfw-3.3.1\docs\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\usr\share\OpenCV\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\;CMake Files\..\shared_sources\;CMake Files\..\shared_sources\cmake\;CMake Files\ray_tracing__advance\;CMake Files\ray_tracing__advance\SDK\;CMake Files\ray_tracing__advance\SDK\lib\;CMake Files\ray_tracing__advance\SDK\lib\ARX\;CMake Files\ray_tracing__before\;CMake Files\ray_tracing__simple\;CMake Files\ray_tracing__simple\SDK\;CMake Files\ray_tracing__simple\SDK\lib\;CMake Files\ray_tracing__simple\SDK\lib\ARX\;CMake Files\ray_tracing_animation\;CMake Files\ray_tracing_anyhit\;CMake Files\ray_tracing_callable\;CMake Files\ray_tracing_instances\;CMake Files\ray_tracing_intersection\;CMake Files\ray_tracing_jitter_cam\;CMake Files\ray_tracing_manyhits\;CMake Files\ray_tracing_reflections\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/cmake-build-debug/ray_tracing__before"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/cmake-build-debug/ray_tracing__before/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/cmake-build-debug/ray_tracing__before/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/cmake-build-debug/ray_tracing__before/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/cmake-build-debug/ray_tracing__before/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vk_ray_tracing__before_NV">
+				<Option output="/home/lidiane/CLionProjects/vk/bin_x64/vk_ray_tracing__before_NV.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../bin_x64"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRESOURCE_DIRECTORY=&quot;/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../shared_sources/resources/&quot;"/>
+					<Add option="-DLINUX"/>
+					<Add option="-DUSEVULKANSDK"/>
+					<Add option="-DGLFW_INCLUDE_VULKAN"/>
+					<Add option="-DVK_ENABLE_BETA_EXTENSIONS"/>
+					<Add option="-DUSEIMGUI"/>
+					<Add option="-DUSEOPENGL"/>
+					<Add option="-DVK_USE_PLATFORM_XLIB_KHR"/>
+					<Add option="-DVK_USE_PLATFORM_XCB_KHR"/>
+					<Add option="-DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1"/>
+					<Add option="-DPROJECT_RELDIRECTORY=&quot;../vk_raytracing_tutorial-master/ray_tracing__before/&quot;"/>
+					<Add option="-DPROJECT_ABSDIRECTORY=&quot;/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/ray_tracing__before/&quot;"/>
+					<Add option="-DPROJECT_NAME=&quot;vk_ray_tracing__before_NV&quot;"/>
+					<Add option="-DPROJECT_DOWNLOAD_RELDIRECTORY=&quot;../downloaded_resources/&quot;"/>
+					<Add option="-DPROJECT_DOWNLOAD_ABSDIRECTORY=&quot;/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../downloaded_resources/&quot;"/>
+					<Add directory="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../shared_sources"/>
+					<Add directory="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../shared_external"/>
+					<Add directory="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../downloaded_resources/glfw-3.3.1/include"/>
+					<Add directory="/usr/local/include/Include"/>
+					<Add directory="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../shared_sources/imgui"/>
+					<Add directory="/home/lidiane/CLionProjects/vk/shared_external/zlib/include"/>
+					<Add directory="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/ray_tracing__before/../common"/>
+					<Add directory="/home/lidiane/CLionProjects/vk/downloaded_resources/glfw-3.3.1/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/cmake-build-debug/ray_tracing__before/Makefile&quot;  VERBOSE=1 vk_ray_tracing__before_NV"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/cmake-build-debug/ray_tracing__before/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/cmake-build-debug/ray_tracing__before/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/cmake-build-debug/ray_tracing__before/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vk_ray_tracing__before_NV/fast">
+				<Option output="/home/lidiane/CLionProjects/vk/bin_x64/vk_ray_tracing__before_NV.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../bin_x64"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRESOURCE_DIRECTORY=&quot;/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../shared_sources/resources/&quot;"/>
+					<Add option="-DLINUX"/>
+					<Add option="-DUSEVULKANSDK"/>
+					<Add option="-DGLFW_INCLUDE_VULKAN"/>
+					<Add option="-DVK_ENABLE_BETA_EXTENSIONS"/>
+					<Add option="-DUSEIMGUI"/>
+					<Add option="-DUSEOPENGL"/>
+					<Add option="-DVK_USE_PLATFORM_XLIB_KHR"/>
+					<Add option="-DVK_USE_PLATFORM_XCB_KHR"/>
+					<Add option="-DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1"/>
+					<Add option="-DPROJECT_RELDIRECTORY=&quot;../vk_raytracing_tutorial-master/ray_tracing__before/&quot;"/>
+					<Add option="-DPROJECT_ABSDIRECTORY=&quot;/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/ray_tracing__before/&quot;"/>
+					<Add option="-DPROJECT_NAME=&quot;vk_ray_tracing__before_NV&quot;"/>
+					<Add option="-DPROJECT_DOWNLOAD_RELDIRECTORY=&quot;../downloaded_resources/&quot;"/>
+					<Add option="-DPROJECT_DOWNLOAD_ABSDIRECTORY=&quot;/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../downloaded_resources/&quot;"/>
+					<Add directory="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../shared_sources"/>
+					<Add directory="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../shared_external"/>
+					<Add directory="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../downloaded_resources/glfw-3.3.1/include"/>
+					<Add directory="/usr/local/include/Include"/>
+					<Add directory="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../shared_sources/imgui"/>
+					<Add directory="/home/lidiane/CLionProjects/vk/shared_external/zlib/include"/>
+					<Add directory="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/ray_tracing__before/../common"/>
+					<Add directory="/home/lidiane/CLionProjects/vk/downloaded_resources/glfw-3.3.1/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/cmake-build-debug/ray_tracing__before/Makefile&quot;  VERBOSE=1 vk_ray_tracing__before_NV/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/cmake-build-debug/ray_tracing__before/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/cmake-build-debug/ray_tracing__before/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/cmake-build-debug/ray_tracing__before/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lidiane/CLionProjects/vk/shared_sources/imgui/imconfig.h">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/shared_sources/imgui/imgui.cpp">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/shared_sources/imgui/imgui.h">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/shared_sources/imgui/imgui_camera_widget.cpp">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/shared_sources/imgui/imgui_camera_widget.h">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/shared_sources/imgui/imgui_draw.cpp">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/shared_sources/imgui/imgui_helper.cpp">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/shared_sources/imgui/imgui_helper.h">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/shared_sources/imgui/imgui_impl_glfw.cpp">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/shared_sources/imgui/imgui_impl_glfw.h">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/shared_sources/imgui/imgui_impl_vk.cpp">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/shared_sources/imgui/imgui_impl_vk.h">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/shared_sources/imgui/imgui_internal.h">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/shared_sources/imgui/imgui_orient.cpp">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/shared_sources/imgui/imgui_orient.h">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/shared_sources/imgui/imgui_widgets.cpp">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/shared_sources/resources.h">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/shared_sources/resources.rc">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/common/obj_loader.cpp">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/common/obj_loader.h">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/ray_tracing__before/hello_vulkan.cpp">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/ray_tracing__before/hello_vulkan.h">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/ray_tracing__before/main.cpp">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/ray_tracing__before/shaders/frag_shader.frag">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/ray_tracing__before/shaders/passthrough.vert">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/ray_tracing__before/shaders/post.frag">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/ray_tracing__before/shaders/vert_shader.vert">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/ray_tracing__before/shaders/wavefront.glsl">
+			<Option target="vk_ray_tracing__before_NV"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../downloaded_resources/glfw-3.3.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\downloaded_resources\glfw-3.3.1\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../downloaded_resources/glfw-3.3.1/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\..\downloaded_resources\glfw-3.3.1\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../downloaded_resources/glfw-3.3.1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\downloaded_resources\glfw-3.3.1\src\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../downloaded_resources/glfw-3.3.1/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\..\downloaded_resources\glfw-3.3.1\src\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../downloaded_resources/glfw-3.3.1/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\..\downloaded_resources\glfw-3.3.1\src\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../downloaded_resources/glfw-3.3.1/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\..\downloaded_resources\glfw-3.3.1\src\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../downloaded_resources/glfw-3.3.1/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\downloaded_resources\glfw-3.3.1\examples\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../downloaded_resources/glfw-3.3.1/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\downloaded_resources\glfw-3.3.1\tests\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../downloaded_resources/glfw-3.3.1/docs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\downloaded_resources\glfw-3.3.1\docs\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../downloaded_resources/glfw-3.3.1/docs/Doxyfile.in">
+			<Option virtualFolder="CMake Files\..\downloaded_resources\glfw-3.3.1\docs\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../../../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../shared_sources/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\shared_sources\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../shared_sources/CMakeLists_include.txt">
+			<Option virtualFolder="CMake Files\..\shared_sources\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../shared_sources/cmake/FindVulkanSDK.cmake">
+			<Option virtualFolder="CMake Files\..\shared_sources\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/../shared_sources/cmake/FindZLIB.cmake">
+			<Option virtualFolder="CMake Files\..\shared_sources\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/ray_tracing__advance/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ray_tracing__advance\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/ray_tracing__advance/SDK/lib/ARX/ARX-release.cmake">
+			<Option virtualFolder="CMake Files\ray_tracing__advance\SDK\lib\ARX\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/ray_tracing__advance/SDK/lib/ARX/ARX.cmake">
+			<Option virtualFolder="CMake Files\ray_tracing__advance\SDK\lib\ARX\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/ray_tracing__before/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ray_tracing__before\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/ray_tracing__simple/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ray_tracing__simple\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/ray_tracing__simple/SDK/lib/ARX/ARX-release.cmake">
+			<Option virtualFolder="CMake Files\ray_tracing__simple\SDK\lib\ARX\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/ray_tracing__simple/SDK/lib/ARX/ARX.cmake">
+			<Option virtualFolder="CMake Files\ray_tracing__simple\SDK\lib\ARX\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/ray_tracing_animation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ray_tracing_animation\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/ray_tracing_anyhit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ray_tracing_anyhit\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/ray_tracing_callable/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ray_tracing_callable\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/ray_tracing_instances/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ray_tracing_instances\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/ray_tracing_intersection/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ray_tracing_intersection\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/ray_tracing_jitter_cam/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ray_tracing_jitter_cam\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/ray_tracing_manyhits/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ray_tracing_manyhits\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/CLionProjects/vk/vk_raytracing_tutorial-master/ray_tracing_reflections/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ray_tracing_reflections\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
