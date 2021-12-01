@@ -1,34 +1,24 @@
-﻿![logo](http://nvidianews.nvidia.com/_ir/219/20157/NV_Designworks_logo_horizontal_greenblack.png)
+﻿# ARRay-Tracing-VKRay-Samples
+This repository presents an utilization example of the ARRay - Tracing middleware integrating the artoolkitX with the VKRay.
 
-# NVIDIA Vulkan Ray Tracing Tutorials
+### Requirements:
+<ol>
+<li> Download and install NVIDIA Optix SDK 6.5 following the instruction from https://developer.nvidia.com/designworks/optix/download
+<li> Install the artoolkitX prerequisites shown in https://github.com/artoolkitx/artoolkitx/wiki/Building-artoolkitX-prerequisites
+</ol>
 
-******************************************************************************************
-**Newer Tutorial version based on KHR**
+### Instructions:
+These instructions were tested on Ubuntu 18.04.5 LTS, other distros will may require some adaptations.<br>
+<ol>
+<li> Clone or download this repository to a BASE_FOLDER of your choice.<br>
+<li> Go to folder "arxSource" and run the comand "./build.sh linux" as superuser.<br>
+<li> Return to the BASE_FOLDER and run "ccmake ."<br>
+  <ol>
+  <li> Press "c" to configure.<br>
+  <li> Press "g" to generate.<br>
+  </ol>
+<li>4- Run the command "make".<br>
+</ol>
 
-There is a newer version of this tutorial, based on VK_KHR_ray_tracing extension.
-* GitHub: https://github.com/nvpro-samples/vk_raytracing_tutorial_KHR
-******************************************************************************************
-
-The focus of this project and the provided code is to showcase a basic integration of
-ray tracing within an existing Vulkan sample, using the
-[`VK_NV_ray_tracing`](https://www.khronos.org/registry/vulkan/specs/1.1-extensions/html/vkspec.html#VK_NV_ray_tracing) extension.
-The following tutorials starts from a the end of the previous ray tracing tutorial and provides step-by-step instructions to modify and add methods and functions.
-The sections are organized by components, with subsections identifying the modified functions.
-
-This project contains multiple tutorials all around Vulkan ray tracing.
-
-Instead of having examples fully functional, those tutorial starts from a program and guide the user to add what is necessary.
-
-## Ray Tracing Tutorial
-
-The first tutorial is starting from a Vulkan code example, which can load multiple OBJ and render them using the rasterizer, and adds step-by-step what is require to do ray tracing.
-
-### [**Start Ray Tracing Tutorial**](https://nvpro-samples.github.io/vk_raytracing_tutorial/)
-
-![resultRaytraceShadowMedieval](docs/Images/resultRaytraceShadowMedieval.png)
-
-# Going Further
-
-From this point on, you can continue creating your own ray types and shaders, and experiment with more advanced ray tracing based algorithms.
-
-### [**All Extra Tutorials**](https://nvpro-samples.github.io/vk_raytracing_tutorial/vkrt_tuto_further.md.html)
+The compiled exemple will be into BASE_FOLDER/bin.
+Run the sample and point your webcam to one of the markers from file [markers.pdf](markers.pdf).
