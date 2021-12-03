@@ -118,6 +118,13 @@ float cameraPose[9];
 
 bool modified;
 
+int profileAR = -1;
+int profileRT = -1;
+float grau1 = 0;
+float grau2 = 0;
+float e1_x = 0, e1_y = 0, e1_z = 0;
+float e2_x = 0, e2_y = 0, e2_z = 0;
+
 std::ofstream outFile;
 std::ifstream inFile;
 //////////////////////////////////////////////////////////////////////////
@@ -202,12 +209,122 @@ unsigned int m_indices[] = {
 static int const SAMPLE_WIDTH  = 640;
 static int const SAMPLE_HEIGHT = 480;
 
+void printUsageAndExit( const std::string& argv0 )
+{
+    std::cerr << "\nUsage: " << argv0 << " [options]\n";
+    std::cerr <<
+              "App Options:\n"
+              "  -h         Print this usage message and exit.\n"
+              "  -ar        AR coordinate system 1: x-right, y-back, z-up; 2: x-right, y-up, z-front; 3: other\n"
+              "  -rt        RT coordinate system 1: x-right, y-back, z-up; 2: x-right, y-up, z-front; 3: other\n"
+              "  -g | -g1   first rotation degree\n"
+              "  -x | -x1   coordinate x from first rotation axis 0 or 1\n"
+              "  -y | -y1   coordinate y from first rotation axis 0 or 1\n"
+              "  -z | -z1   coordinate z from first rotation axis 0 or 1\n"
+              "  -g2        second rotation degree\n"
+              "  -x2        coordinate x from first rotation axis 0 or 1\n"
+              "  -y2        coordinate y from first rotation axis 0 or 1\n"
+              "  -z2        coordinate z from first rotation axis 0 or 1\n"
+              "App Keystrokes:\n"
+              "  qVec  Quit\n"
+              << std::endl;
+
+    exit(1);
+}
+
 //--------------------------------------------------------------------------------------------------
 // Application Entry
 //
 int main(int argc, char** argv)
 {
-  UNUSED(argc);
+    for( int i=1; i<argc; ++i )
+    {
+        const std::string arg( argv[i] );
+
+        if( arg == "-h" || arg == "--help" )
+        {
+            printUsageAndExit( argv[0] );
+        }
+        else if ( arg == "-ar" )
+        {
+            if ( i == argc-1 ) {
+                std::cerr << "Option '" << arg << "' requires additional argument.\n";
+                printUsageAndExit( argv[0] );
+            }
+            profileAR = atoi(argv[++i]);
+        }
+        else if ( arg == "-rt")
+        {
+            if ( i == argc-1 ) {
+                if (profileAR != atoi(argv[++i])){
+                    std::cerr << "Option '" << arg << "' requires additional argument.\n";
+                    printUsageAndExit( argv[0] );
+                }
+            }
+            profileRT = atoi(argv[++i]);
+        }
+        else if ( arg == "-g" || arg == "-g1" )
+        {
+            if ( i == argc-1 ) {
+                printUsageAndExit( argv[0] );
+            }
+            grau1 = atoi(argv[++i]);
+        }
+        else if ( arg == "-x" || arg == "-x1" )
+        {
+            if ( i == argc-1 ) {
+                printUsageAndExit( argv[0] );
+            }
+            e1_x = atoi(argv[++i]);
+        }
+        else if ( arg == "-y" || arg == "-y1" )
+        {
+            if ( i == argc-1 ) {
+                printUsageAndExit( argv[0] );
+            }
+            e1_y = atoi(argv[++i]);
+        }
+        else if ( arg == "-z" || arg == "-z1" )
+        {
+            if ( i == argc-1 ) {
+                printUsageAndExit( argv[0] );
+            }
+            e1_z = atoi(argv[++i]);
+        }
+        else if ( arg == "-g2")
+        {
+            if ( i == argc-1 ) {
+                printUsageAndExit( argv[0] );
+            }
+            grau2 = atoi(argv[++i]);
+        }
+        else if ( arg == "-x2" )
+        {
+            if ( i == argc-1 ) {
+                printUsageAndExit( argv[0] );
+            }
+            e2_x = atoi(argv[++i]);
+        }
+        else if ( arg == "-y2")
+        {
+            if ( i == argc-1 ) {
+                printUsageAndExit( argv[0] );
+            }
+            e2_y = atoi(argv[++i]);
+        }
+        else if ( arg == "-z2")
+        {
+            if ( i == argc-1 ) {
+                printUsageAndExit( argv[0] );
+            }
+            e2_z = atoi(argv[++i]);
+        }
+        else
+        {
+            std::cerr << "Unknown option '" << arg << "'\n";
+            printUsageAndExit( argv[0] );
+        }
+    }
 
   // Setup GLFW window
   glfwSetErrorCallback(onErrorCallback);
@@ -325,19 +442,19 @@ int main(int argc, char** argv)
 //  helloVk.loadModel(nvh::findFile("media/scenes/plane.obj", defaultSearchPaths), nvmath::scale_mat4(nvmath::vec3f(3.0f)));
 
 //  helloVk.loadModel(nvh::findFile("media/scenes/teapot.obj", defaultSearchPaths), nvmath::translation_mat4(nvmath::vec3f(-3, 0, 0)) * nvmath::scale_mat4(nvmath::vec3f(0.7f)));
-  //helloVk.loadModel(nvh::findFile("media/scenes/bunny.obj", defaultSearchPaths), nvmath::translation_mat4(nvmath::vec3f(0, 0, 0)) * nvmath::scale_mat4(nvmath::vec3f(60.0f)));
+  helloVk.loadModel(nvh::findFile("media/scenes/bunny.obj", defaultSearchPaths), nvmath::translation_mat4(nvmath::vec3f(0, 0, 0)) * nvmath::scale_mat4(nvmath::vec3f(60.0f)));
     //helloVk.loadModel(nvh::findFile("media/scenes/buddha.obj", defaultSearchPaths), nvmath::translation_mat4(nvmath::vec3f(0.0f, 50.0f, 10.0f))* nvmath::scale_mat4(nvmath::vec3f(110.0f)) * nvmath::rotation_mat4_y(135.0f));
-    helloVk.loadModel(nvh::findFile("media/scenes/dragon.obj", defaultSearchPaths), nvmath::translation_mat4(nvmath::vec3f(0.0f, 32.0f, -20.0f))* nvmath::scale_mat4(nvmath::vec3f(120.0f)) * nvmath::rotation_mat4_y(90.0f));
+    //helloVk.loadModel(nvh::findFile("media/scenes/dragon.obj", defaultSearchPaths), nvmath::translation_mat4(nvmath::vec3f(0.0f, 32.0f, -20.0f))* nvmath::scale_mat4(nvmath::vec3f(120.0f)) * nvmath::rotation_mat4_y(90.0f));
 
 
-//helloVk.loadModel(nvh::findFile("media/scenes/CornellBox-Empty-White.obj", defaultSearchPaths), nvmath::scale_mat4(nvmath::vec3f(95.0f, 70.f, 60.f)) );
+    helloVk.loadModel(nvh::findFile("media/scenes/CornellBox-Empty-White.obj", defaultSearchPaths), nvmath::scale_mat4(nvmath::vec3f(95.0f, 70.f, 60.f)) );
   //helloVk.loadModel(nvh::findFile("media/scenes/Alucy.obj", defaultSearchPaths), nvmath::rotation_mat4_y(45.f) * nvmath::scale_mat4(nvmath::vec3f(0.12f)));
 
     //helloVk.loadModel(nvh::findFile("media/scenes/bunny.obj", defaultSearchPaths), nvmath::scale_mat4(nvmath::vec3f(60.0f)));
     //helloVk.loadModel(nvh::findFile("media/scenes/CornellBox-Empty-RG.obj", defaultSearchPaths), nvmath::scale_mat4(nvmath::vec3f(80.0f, 70.0f, 60.0f)) );
 
     //Buddah rg
-    helloVk.loadModel(nvh::findFile("media/scenes/CornellBox-Empty-RG.obj", defaultSearchPaths), nvmath::scale_mat4(nvmath::vec3f(60.0f, 60.0f, 60.0f)) );
+    //helloVk.loadModel(nvh::findFile("media/scenes/CornellBox-Empty-RG.obj", defaultSearchPaths), nvmath::scale_mat4(nvmath::vec3f(60.0f, 60.0f, 60.0f)) );
 //helloVk.loadModel(nvh::findFile("media/scenes/Alucy.obj", defaultSearchPaths), nvmath::rotation_mat4_y(45.f) * nvmath::scale_mat4(nvmath::vec3f(0.15f)));
 
 //    helloVk.loadModel(nvh::findFile("media/scenes/wuson.obj", defaultSearchPaths), nvmath::rotation_mat4_y(90.f) * nvmath::scale_mat4(nvmath::vec3f(50.f)));
@@ -804,7 +921,11 @@ static void displayOnce(void)
                         view[i] = (float) marker->transformationMatrix[i];
                     }
                 }
-                mtxRotatef(view, 90, 1.0f, 0.0f, 0.0f);
+                if(profileAR != profileRT){
+                    mtxRotatef(view, grau1, e1_x, e1_y, e1_z);
+                    mtxRotatef(view, grau2, e2_x, e2_y, e2_z);
+                }
+                //mtxRotatef(view, 90, 1.0f, 0.0f, 0.0f);
                 //ARLOGd("MK: x: %3.1f  y: %3.1f  z: %3.1f w: %3.1f \n", view[12], view[13], view[14], view[15]);
                 //sprintf(str, "Cam Pos: x: %3.1f  y: %3.1f  z: %3.1f w: %3.1f \n", view[12], view[13], view[14], view[15]);
                 if(gluInvertMatrix(view)){
